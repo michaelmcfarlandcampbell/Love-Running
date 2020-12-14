@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;800&family=Commissioner:wght@100;600;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  font-family: Bitter;
+  color: #77777;
+}
+h2 {
+  font-family: Commissioner;
+  text-transform: uppercase;
+  letter-spacing: 2px; 
+  color: #55555;
+}
+#logo {
+  float: left;
+  font-size: 280%;
+}
+
+#menu {
+  font-family: Commissioner;
+  font-size: 110%;
+  list-style-type: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#menu li {
+  float: right;
+  margin-right: 30px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: inherit; 
+}
+#logo, #menu {
+  line-height: 75px;
+}
+#menu a:hover {
+  border-bottom: 1px solid #555555;
+}
+
+.active {
+  border-bottom: 1px solid #555555;
+}
+
+#hero-image {
+  height: 600px;
+  width: 100%;
+  background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat center center;
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+}
+#hero-outer {
+  height: 600px;
+  width: 100%;
+  overflow: hidden; 
+  position: relative;
+}
+
+@keyframes hero-zoom {
+  from {
+    transform: scale(1)
+  }
+  to {
+    transform: scale(1.1)
+  }
+}
+
+#cover-text, cover-text h2 {
+  font-family: Commissioner; 
+  color: #ffffff;
+}
+
+#cover-text {
+  font-size: 130%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  
+  width: 300px;
+  height: 200px;
+
+  padding-top: 40px; 
+  padding-left: 10px;
+
+  background-color: rgba(240, 149, 107, 0.7);
+  
+  bottom: 30px;
+  right: 150px;
+
+  position: absolute;
+}
+
+#club-ethos {
+  height: 600px;
+}
+
+#left-about {
+  padding-top: 30px;
+  width: 33%;
+  float: left;
+}
+
+#right-about {
+  padding-top: 30px;
+  width: 33%;
+  float: right;
+}
+
+#center-about {
+  padding-top: 30px;
+  width: 33%;
+  margin: 0 auto;  
+}
+
+hr {
+    border-top: 1px solid #777777;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    width: 50%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+
+.right-about-heading {
+     width: 50%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px; 
+}
+
+.right-about-heading h2 {
+  text-align: right;
+}
+
+#welcome {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 280%;
+}
+
+#circle-cover-bg {
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  border-style: solid;
+  border-color: #cccccc;
+  border-width: 1px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
