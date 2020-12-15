@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;800&family=Commissioner:wght@100;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bitter:wght@400;800&family=Commissioner:wght@100;600;800&display=swap');
 
 * {
   margin: 0;
@@ -175,7 +175,7 @@ hr {
 }
 
 #times { 
-    background-image: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/dublin-city.png");
+    background-image: url("https://lh3.googleusercontent.com/proxy/6H3_5cb5Tn7UPdjIl65XvWXdDaxAGXDN8vyHhmaQTnwrNSps23GGVMFVsbn_qjmp59foD3nX_OYUbIRM1AHQ_3mprkhDeu-Xjr_lCHU5OxbMygELe76rfe9J_ez-53ap9_ONHdG5YhZLhhslmg");
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center;
@@ -197,4 +197,25 @@ hr {
 
 #times h2 {
   color: #fafafa;
+}
+
+footer {
+  height: 150px;
+
+}
+
+.social-networks {
+  text-align: center;
+  color: purple;
+}
+
+.social-networks li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 160%;
+  color: #777777;
+  margin: 1px; 
+  padding: 5%; 
 }
